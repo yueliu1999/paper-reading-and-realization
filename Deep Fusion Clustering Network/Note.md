@@ -133,7 +133,7 @@ solution
 
 - Improved graph antoencoder
 
-  同时优化特征的权重矩阵以及邻接矩阵
+  同时优化特征的**权重矩阵**以及**邻接矩阵**
 
   损失函数如下
 
@@ -397,6 +397,7 @@ $L = \underbrace {L_{AE}+L_{IGAE}}_{Reconstruction}+\underbrace{\lambda L_{KL}}_
 - 核心SAIF模块利用graph和node特征通过dynamic cross-modality fusion和triplet self-supervised strategy
 - IGAE
 
+ 
 
 
 
@@ -418,4 +419,4 @@ $L = \underbrace {L_{AE}+L_{IGAE}}_{Reconstruction}+\underbrace{\lambda L_{KL}}_
 
 
 
-
+##

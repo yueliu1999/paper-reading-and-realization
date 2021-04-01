@@ -75,5 +75,25 @@ OT变得可以微分，并且可以用Sinkhorn iteration进行解决
 
 ### Imputing Missing Values using OT
 
+#### Batch Sinkhorn Imputation
+
+直接进行填充，最小化OT距离
+
+- 首先把缺失的值变为观测到的值的均值+小的noise
+
+- 采样两个集合K和L
+
+  计算OT距离
+
+  更新值
+
+
+
+
+
+
+
+
+
 
 
